@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  transition: all 1s;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul,
+ol {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.btn-theme {
+  border: none;
+  border: 2px solid #1f3040;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none;
+}
+.dark {
+  .mainTitle {
+    color: white;
+  }
+  .mainText {
+    color: white;
+  }
+  transition: all 1s;
+  background-color: #1f3040;
+  .SeMyProject {
+    padding: 10px 25px;
+    background: none;
+    border: 2px solid white;
+  }
+  .hireMe {
+    background: none;
+    border: 2px solid white;
+    color: white;
+  }
+  .select {
+    color: white;
+  }
+  .text {
+    color: white;
+  }
+  .btn-theme {
+    color: white;
+    border: 2px solid white;
+  }
+}
+.text {
+  font-weight: 650;
+  cursor: pointer;
+}
+.mainTitle {
+  font-size: 40px;
+}
+.select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  font-weight: 550;
+  font-size: 16.5px;
+}
+@media screen and (max-width: 666px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .text {
+    font-size: 12px;
+  }
+  .select {
+    font-size: 10px;
+  }
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hireMe {
+  padding: 10px 25px;
+  border: 2px solid #1f3040;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.SeMyProject {
+  padding: 12px 25px;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  p {
+    letter-spacing: 1.2px;
+    line-height: 25px;
+  }
+  gap: 30px;
+}
+.main {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 808px) {
+  .btn-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-wrapper {
+    width: 600px;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .text-wrapper {
+    width: 395px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .text {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .hireMe {
+    font-size: 10px;
+  }
+  .SeMyProject {
+    font-size: 10px;
+  }
+  .text-wrapper {
+    width: 295px;
+  }
+  .mainTitle {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 5px;
+  }
+}

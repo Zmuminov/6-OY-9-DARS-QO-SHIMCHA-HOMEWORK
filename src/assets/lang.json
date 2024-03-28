@@ -1,0 +1,32 @@
+{
+  "en": {
+    "translation": {
+      "about": "About Me",
+      "skills": "  Skills",
+      "project": "Project",
+      "product": "Contact",
+      "title": "Hi, I’m Charles, Front-end Developer",
+      "text": "I design and develop experiences that make peoples lives simpler through Web and Mobile  apps I work with Figma  HTML5 CSS3 JavaScript React ReactNative and Flutter"
+    }
+  },
+  "ru": {
+    "translation": {
+      "about": "Обо мне",
+      "skills": "навыки",
+      "project": "проект",
+      "product": "продукт",
+      "title": "Привет, я Чарльз, фронтенд-разработчик",
+      "text": "Я проектирую и разрабатываю решения, которые упрощают жизнь людей с помощью веб- и мобильных приложений. Я работаю с Figma HTML5 CSS3 JavaScript React ReactNative и Flutter."
+    }
+  },
+  "uz": {
+    "translation": {
+      "about": "Men haqimda",
+      "skills": "Qobilyatim",
+      "project": "Proektlarim",
+      "product": "Mahsulotlar",
+      "title": "Salom, Men Charlezman, Front-end Developer",
+      "text": "Men veb va mobil ilovalar orqali odamlarning hayotini osonlashtiradigan yechimlarni ishlab chiqaman va ishlab chiqaman. Men Figma HTML5 CSS3 JavaScript React ReactNative va Flutter bilan ishlayapman."
+    }
+  }
+}
